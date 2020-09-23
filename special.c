@@ -24,7 +24,6 @@ int sum_of_fact_digits(int n){
 int main(){
 	int a;
 	scanf("%d", &a);
-	printf("Factorial of %d = %d", a, fact(a));
 	if(sum_of_fact_digits(a) == a){
 		printf("\nSpecial Number\n");
 	} else{
