@@ -22,9 +22,9 @@ int sum_of_fact_digits(int n){
 }
 
 int main(){
-	int a;
-	scanf("%d", &a);
-	if(sum_of_fact_digits(a) == a){
+	int number;
+	scanf("%d", &number);
+	if(sum_of_fact_digits(number) == number){
 		printf("\nSpecial Number\n");
 	} else{
 		printf("\nNot Special Number\n");
