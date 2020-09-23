@@ -1,1 +1,6 @@
 The following programs in the repo are being committed using git cli.
+
+Run the palindrome program following the instructions below:
+Step 1: $ gcc -c palindrome.c
+Step 2: $ ar rvs palindrome.a palindrome.o
+Step 3: $ gcc numbers.c palindrome.a -o numbers
