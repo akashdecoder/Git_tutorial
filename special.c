@@ -1,5 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+int fact(int );
+int sum_of_fact_digits(int );
+
+int main(){
+	int number;
+	scanf("%d", &number);
+	if(sum_of_fact_digits(number) == number){
+		printf("\nSpecial Number\n");
+	} else{
+		printf("\nNot Special Number\n");
+	}
+	return 0;
+}
 
 int fact(int n){
 	if(n == 0){
@@ -19,15 +32,4 @@ int sum_of_fact_digits(int n){
 		n = n / 10;
 	}
 	return sum;
-}
-
-int main(){
-	int number;
-	scanf("%d", &number);
-	if(sum_of_fact_digits(number) == number){
-		printf("\nSpecial Number\n");
-	} else{
-		printf("\nNot Special Number\n");
-	}
-	return 0;
 }
